@@ -9,8 +9,34 @@
  * 
  */
 
-let mes = 4;
+let mes = 7;
 
 // Escribir a partir de aquí
 
+switch (mes) {
+    case 1:
+    case 2:
+    case 3:
+      trimestres = "primer trimestre del año";
+      break;  
+    case 4:
+    case 5:
+    case 6:
+        trimestres = "segundo trimestre";
+        break;
+    case 7:
+    case 8:
+    case 9:
+        trimestres = "tercer trimestre";
+        break;
+    case 10:
+    case 11:
+    case 12:
+        trimestres = "cuarto trimestre";
+        break;
+    default:
+        trimestres = "Calculando trimestre"
+        break;
+}
 
+console.log("Estamo en el", trimestres);

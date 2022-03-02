@@ -1,6 +1,8 @@
 /**
  * Ejercicio 3: ¿En que iteración me encuentro?.
  * 
+ * Iteracion 0
+ * 
  * Escribe un mensaje por el terminal. Un mensaje para cada iteración, indicando en que iteración se encuentra el bucle en este momento.
  * 
  * Ejemplo:
@@ -18,5 +20,5 @@
 
 for (var i=0;i<10;i++) {
     // aquí tu código
-    console.log("Estoy en la iteración i")
+    console.log("Estoy en la iteración", i)
 }
